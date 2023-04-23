@@ -4,10 +4,26 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>G4.MyEntity - MySQL Easy Communication</Title>
+    <Company>@lucasmatheusg4</Company>
+    <Description>G4.MyEntity is a simple library to make easy the communication with database, easy to configure, easy to use, perfect for simple projects with no necessity to use big frameworks with complex structure.</Description>
+    <PackageProjectUrl></PackageProjectUrl>
+    <PackageIcon>144.png</PackageIcon>
+    <RepositoryUrl>https://github.com/LucasMG4/G4.MyEntity</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>mysql</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
     <Folder Include="Atributtes\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\Users\lucas\Pictures\MG4\Logo\144.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
